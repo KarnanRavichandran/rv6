@@ -25,6 +25,7 @@ function App() {
      <Route path="/newbook" element={<NewBook />} />
      <Route path="*" element={<NotFound />} />
        <p>test</p>
+      <b>hai updated</b>
      <Route />
   </Routes>
   </>
