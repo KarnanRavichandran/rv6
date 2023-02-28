@@ -24,6 +24,7 @@ function App() {
      <Route path="/book/:id" element={<Book />} />
      <Route path="/newbook" element={<NewBook />} />
      <Route path="*" element={<NotFound />} />
+       <p>test</p>
      <Route />
   </Routes>
   </>
